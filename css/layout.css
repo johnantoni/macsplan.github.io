@@ -1,0 +1,55 @@
+body { background:#000; color:#efefef; }
+
+/* generic */
+
+img { border:1px solid #444; width:218px; }
+a { color:#eee; text-decoration:none; border-bottom:solid 2px #DB6C0F; }
+a:hover { color:#F0E3C0; border-bottom:solid 2px #fff; }
+
+/* gallery */
+
+.index header { margin:25px auto; letter-spacing:0.05em; line}
+.index header h1 { margin-bottom:30px; font-weight:normal; }
+.index header p { font-size:18px; }
+.index header .title { line-height:2em; }
+
+.index { background: url(../images/darkwood.jpg) repeat #231711; }
+.index .container_12 { margin:20px auto; background:#111; border-radius:10px; -moz-box-shadow: 2px 2px 2px #000; -webkit-box-shadow: 2px 2px 2px #000; box-shadow: 2px 2px 2px #000; }
+
+.index .profile img { border-radius:10px; }
+	
+.gallery section { margin-bottom:20px; }
+.gallery header { margin-bottom:20px; border-bottom:1px solid #eee; color:#eee; position:relative; }
+.gallery header h2 { padding:5px 0; margin-bottom:0; font-weight:normal; }
+.gallery header span { position:absolute; bottom:11px; right:0; font-size:14px; }
+.gallery a:hover img { border:1px solid #efefef; }
+#fancybox-wrap a { border:none; }
+
+
+/* nav */
+nav { position:absolute; top:0; right:0; }
+nav ul { list-style-type:none; }
+nav li { display:inline;  margin:0 3px; }
+nav a { text-align:right; text-transform:uppercase; background:#444; border-radius:5px; color:#fff; padding:7px 10px; border:0; font-size:12px; }
+nav a:hover { background:#777; text-decoration:none; border-bottom:none; }
+
+/* footer */
+.footer a { text-transform:uppercase; }
+footer { text-align:right; margin-top:10px; }
+
+
+/* resume */
+.resume { background:#efefef; color:#000; margin:20px auto; }
+.resume h1 { font-size:2em; }
+.resume h3 { font-size:1.8em; margin-bottom:10px; color:#666; }
+.resume h4 { font-size:1.4em; margin-bottom:0; }
+.resume em { }
+.resume p { font-size:1.3em; }
+.resume a { color:#333; }
+.resume a:hover { border-bottom:2px solid #333; color:#000; }
+.resume nav a, .resume nav a:hover { color:#efefef; border-bottom:none; }
+.resume header { line-height: 2em; position:relative; }
+.resume .footer div { padding:10px 20px; }
+.resume .gallery a img { border-color:#333; }
+.resume .gallery a:hover img { border-color:#DB6C0F; }
+
